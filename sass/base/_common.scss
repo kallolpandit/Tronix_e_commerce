@@ -4,28 +4,16 @@
   outline: 0;
   box-sizing: border-box;
 }
-
 ul,
 ol {
   list-style: none;
 }
-
 a {
   text-decoration: none;
   display: inline-block;
 }
-
 img {
   width: 100%;
   max-width: 100%;
   vertical-align: middle;
 }
-
-.menu {
-  padding: 46px 0;
-  display: flex;
-  gap: 50px;
-}
-.menu .menu_list {
-  gap: 30px;
-}/*# sourceMappingURL=style.css.map */
