@@ -23,9 +23,47 @@ img {
 
 .menu {
   padding: 46px 0;
-  display: flex;
-  gap: 50px;
+}
+.menu .search {
+  margin-left: 128px;
+}
+.menu .search input {
+  background: #d0d0d2;
+  color: #a7a7a7;
+  border: none;
+}
+.menu .search input:hover {
+  box-shadow: none;
+}
+.menu .search .s_btn {
+  border-color: #f46b5b;
+  background: #f46b5b;
+}
+.menu .search .s_btn span {
+  color: #fff;
 }
 .menu .menu_list {
-  gap: 30px;
+  margin-left: 100px;
+  gap: 48px;
+}
+.menu .menu_chart ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.menu .menu_chart ul li {
+  position: relative;
+}
+.menu .menu_chart ul li p {
+  position: absolute;
+  top: -15px;
+  right: -18px;
+  background: #f46b5b;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+.menu .menu_chart ul li a {
+  font-size: 28px;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
