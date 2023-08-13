@@ -10,6 +10,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -263,4 +267,93 @@ ol {
   padding-top: 15px;
   margin: 0 auto;
   display: block;
+}
+
+#new_arrival {
+  padding-bottom: 160px;
+}
+#new_arrival .new_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 32px;
+}
+#new_arrival .new_heading h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+}
+#new_arrival .new_heading a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #f46b5b;
+}
+#new_arrival .new_items {
+  border: 1px solid #a7a7a7;
+  border-radius: 16px;
+  position: relative;
+  margin-left: 20px;
+}
+#new_arrival .new_items img {
+  width: 100%;
+  height: 250px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+#new_arrival .new_items .new {
+  height: 64px;
+  width: 64px;
+  background: #f46b5b;
+  text-align: center;
+  line-height: 64px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#new_arrival .new_items .new_text {
+  text-align: center;
+  padding: 32px 0;
+}
+#new_arrival .new_items .new_text h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  padding-bottom: 8px;
+}
+#new_arrival .new_items .new_text .price {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-weight: 800;
+}
+#new_arrival .new_items .new_text .details {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  gap: 20px;
+  margin-top: 16px;
+  color: #a7a7a7;
+}
+#new_arrival .new_items .new_text .details span {
+  display: flex;
+  gap: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #a7a7a7;
+}
+#new_arrival .new_items .new_text .details span .star {
+  color: #ffd687;
 }/*# sourceMappingURL=style.css.map */

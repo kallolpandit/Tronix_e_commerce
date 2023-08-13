@@ -1,244 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tronix E-Commerce Project</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <!-- ====================
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tronix E-Commerce Project</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- ====================
            Navbar Part Start
        ======================= -->
-    <nav class="navbar navbar-expand-lg menu">
-      <div class="container px-0">
-        <div>
-          <a class="navbar-brand logo" href="index.html"
-            ><img src="images/logo.png" alt="logo"
-          /></a>
-        </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="search">
-          <form class="d-flex">
-            <input
-              class="form-control"
-              type="search"
-              placeholder="Search here"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success s_btn" type="submit">
-              <span><i class="fa-solid fa-magnifying-glass"></i></span>
-            </button>
-          </form>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 menu_list">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Product</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="menu_chart">
-          <ul>
-            <li>
-              <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
-              <p>99</p>
-            </li>
-            <li>
-              <a href=""><i class="fa-regular fa-envelope"></i></a>
-            </li>
-            <li>
-              <a href=""><i class="fa-solid fa-bars"></i></a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg menu">
+    <div class="container px-0">
+      <div>
+        <a class="navbar-brand logo" href="index.html"><img src="images/logo.png" alt="logo" /></a>
       </div>
-    </nav>
-    <!-- ====================
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="search">
+        <form class="d-flex">
+          <input class="form-control" type="search" placeholder="Search here" aria-label="Search" />
+          <button class="btn btn-outline-success s_btn" type="submit">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          </button>
+        </form>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 menu_list">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu_chart">
+        <ul>
+          <li>
+            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+            <p>99</p>
+          </li>
+          <li>
+            <a href=""><i class="fa-regular fa-envelope"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-bars"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ====================
            Navbar Part End
        ======================= -->
 
-    <!-- ====================
+  <!-- ====================
            Banner Part Start
        ======================= -->
 
-    <section id="banner">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="banner_slide">
-              <div
-                class="slide"
-                style="
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="banner_slide">
+            <div class="slide" style="
                   background: url(./images/banner-bg.jpg) no-repeat center;
                   background-size: cover;
-                "
-              >
-                <div class="overly"></div>
-                <div class="text">
-                  <h1>Better Devices for Better Life</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
+                ">
+              <div class="overly"></div>
+              <div class="text">
+                <h1>Better Devices for Better Life</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </p>
               </div>
-              <div
-                class="slide"
-                style="
+            </div>
+            <div class="slide" style="
                   background: url(./images/banner-bg-2.png) no-repeat center;
                   background-size: cover;
-                "
-              >
-                <div class="overly"></div>
-                <div class="text">
-                  <h1>Better Devices for Better Life</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
+                ">
+              <div class="overly"></div>
+              <div class="text">
+                <h1>Better Devices for Better Life</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </p>
               </div>
-              <div
-                class="slide"
-                style="
+            </div>
+            <div class="slide" style="
                   background: url(./images/banner-bg-3.jpg) no-repeat center;
                   background-size: cover;
-                "
-              >
-                <div class="overly"></div>
-                <div class="text">
-                  <h1>Better Devices for Better Life</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
+                ">
+              <div class="overly"></div>
+              <div class="text">
+                <h1>Better Devices for Better Life</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </p>
               </div>
-              <div
-                class="slide"
-                style="
+            </div>
+            <div class="slide" style="
                   background: url(./images/banner-bg-4.jpg) no-repeat center;
                   background-size: cover;
-                "
-              >
-                <div class="overly"></div>
-                <div class="text">
-                  <h1>Better Devices for Better Life</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
+                ">
+              <div class="overly"></div>
+              <div class="text">
+                <h1>Better Devices for Better Life</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </p>
               </div>
-              <div
-                class="slide"
-                style="
+            </div>
+            <div class="slide" style="
                   background: url(./images/banner-bg-5.jpg) no-repeat center;
                   background-size: cover;
-                "
-              >
-                <div class="overly"></div>
-                <div class="text">
-                  <h1>Better Devices for Better Life</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
+                ">
+              <div class="overly"></div>
+              <div class="text">
+                <h1>Better Devices for Better Life</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </p>
               </div>
-              <div
-                class="slide"
-                style="
+            </div>
+            <div class="slide" style="
                   background: url(./images/banner-bg-6.jpg) no-repeat center;
                   background-size: cover;
-                "
-              >
-                <div class="overly"></div>
-                <div class="text">
-                  <h1>Better Devices for Better Life</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor.
-                  </p>
-                </div>
+                ">
+              <div class="overly"></div>
+              <div class="text">
+                <h1>Better Devices for Better Life</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <div
-              class="banner_details"
-              style="
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="banner_details" style="
                 background: url(./images/banner-gaming.jpg) no-repeat center;
                 background-size: cover;
                 width: 100%;
-              "
-            >
-              <div class="banner_text">
-                <div class="b_text">
-                  <h2>PC Gaming Collection</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod.
-                  </p>
-                </div>
+              ">
+            <div class="banner_text">
+              <div class="b_text">
+                <h2>PC Gaming Collection</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div
-              class="banner_details"
-              style="
+        </div>
+        <div class="col-lg-6">
+          <div class="banner_details" style="
                 background: url(./images/banner-camera.jpg) no-repeat center;
                 background-size: cover;
                 width: 100%;
-              "
-            >
-              <div class="banner_text">
-                <div class="b_text">
-                  <h2>Camera Collection</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod.
+              ">
+            <div class="banner_text">
+              <div class="b_text">
+                <h2>Camera Collection</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====================
+           Banner Part End
+       ======================= -->
+
+  <!-- ====================
+           Category Part Start
+       ======================= -->
+  <section id="category">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="cat_heading">
+            <h2>Category</h2>
+          </div>
+          <div class="cat_details">
+            <div class="cat_items">
+              <span><img src="./images/Laptop.png" alt="Laptop" /></span>
+              <a href="">Computer & Laptop</a>
+            </div>
+            <div class="cat_items">
+              <span><img src="./images/Smartphone.png" alt="Laptop" /></span>
+              <a href="">Mobile & Tablet</a>
+            </div>
+            <div class="cat_items">
+              <span><img src="./images/Camera.png" alt="Camera" /></span>
+              <a href="">Camera</a>
+            </div>
+            <div class="cat_items">
+              <span><img src="./images/Tv And Remote.png" alt="Tv And Remote" /></span>
+              <a href="">TV & Smart Box</a>
+            </div>
+            <div class="cat_items">
+              <span><img src="./images/Air Conditioner.png" alt="Air Conditioner" /></span>
+              <a href="">Home Appliance</a>
+            </div>
+            <div class="cat_items">
+              <span><img src="./images/Speaker.png" alt="Speaker" /></span>
+              <a href="">Accessories</a>
+            </div>
+            <div class="cat_items">
+              <span><img src="./images/Gamepad.png" alt="Gamepad" /></span>
+              <a href="">Other Categories</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====================
+           Category Part End
+       ======================= -->
+
+  <!-- ====================
+           New Arrival Part Start
+       ======================= -->
+  <section id="new_arrival">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="new_heading">
+            <h2>New Arrival</h2>
+            <a href="">View All</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="new_items">
+              <img src="./images/new_smartphone.jpg" alt="new_smartphone" />
+              <div class="new">
+                <p>New</p>
+              </div>
+              <div class="new_text">
+                <h3>Smartphone 5G</h3>
+                <p class="price">$299.00</p>
+                <div class="details">
+                  <span>
+                    <p class="star"><i class="fa-solid fa-star"></i></p>
+                    <p>5.0</p>
+                  </span>
+                  <p>Sold 99</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="new_items">
+              <img src="./images/usb_speaker.jpg" alt="usb_speaker" />
+              <div class="new">
+                <p>New</p>
+              </div>
+              <div class="new_text">
+                <h3>USB Speaker Portable</h3>
+                <p class="price">$299.00</p>
+                <div class="details">
+                  <span>
+                    <p class="star"><i class="fa-solid fa-star"></i></p>
+                    <p>5.0</p>
+                  </span>
+                  <p>Sold 99</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="new_items">
+              <img src="./images/smart_tv.jpg" alt="smart_tv" />
+              <div class="new">
+                <p>New</p>
+              </div>
+              <div class="new_text">
+                <h3>Smart TV</h3>
+                <p class="price">$299.00</p>
+                <div class="details">
+                  <span>
+                    <p class="star"><i class="fa-solid fa-star"></i></p>
+                    <p>5.0</p>
+                  </span>
+                  <p>Sold 99</p>
                   </p>
                 </div>
               </div>
@@ -246,121 +326,59 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- ====================
-           Banner Part End
+    </div>
+  </section>
+  <!-- ====================
+           New Arrival Part End
        ======================= -->
 
-    <!-- ====================
-           Category Part Start
-       ======================= -->
-    <section id="category">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="cat_heading">
-              <h2>Category</h2>
-            </div>
-            <div class="cat_details">
-              <div class="cat_items">
-                <span><img src="./images/Laptop.png" alt="Laptop" /></span>
-                <a href="">Computer & Laptop</a>
-              </div>
-              <div class="cat_items">
-                <span><img src="./images/Smartphone.png" alt="Laptop" /></span>
-                <a href="">Mobile & Tablet</a>
-              </div>
-              <div class="cat_items">
-                <span><img src="./images/Camera.png" alt="Camera" /></span>
-                <a href="">Camera</a>
-              </div>
-              <div class="cat_items">
-                <span
-                  ><img src="./images/Tv And Remote.png" alt="Tv And Remote"
-                /></span>
-                <a href="">TV & Smart Box</a>
-              </div>
-              <div class="cat_items">
-                <span
-                  ><img
-                    src="./images/Air Conditioner.png"
-                    alt="Air Conditioner"
-                /></span>
-                <a href="">Home Appliance</a>
-              </div>
-              <div class="cat_items">
-                <span><img src="./images/Speaker.png" alt="Speaker" /></span>
-                <a href="">Accessories</a>
-              </div>
-              <div class="cat_items">
-                <span><img src="./images/Gamepad.png" alt="Gamepad" /></span>
-                <a href="">Other Categories</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ====================
-           Category Part End
-       ======================= -->
-
-    <!-- ====================
+  <!-- ====================
            Navbar Part Start
        ======================= -->
-    <!-- ====================
+  <!-- ====================
            Navbar Part End
        ======================= -->
 
-    <!-- ====================
+  <!-- ====================
            Navbar Part Start
        ======================= -->
-    <!-- ====================
+  <!-- ====================
            Navbar Part End
        ======================= -->
 
-    <!-- ====================
+  <!-- ====================
            Navbar Part Start
        ======================= -->
-    <!-- ====================
+  <!-- ====================
            Navbar Part End
        ======================= -->
 
-    <!-- ====================
+  <!-- ====================
            Navbar Part Start
        ======================= -->
-    <!-- ====================
+  <!-- ====================
            Navbar Part End
        ======================= -->
 
-    <!-- ====================
+  <!-- ====================
            Navbar Part Start
        ======================= -->
-    <!-- ====================
+  <!-- ====================
            Navbar Part End
        ======================= -->
 
-    <!-- ====================
+  <!-- ====================
            Navbar Part Start
        ======================= -->
-    <!-- ====================
+  <!-- ====================
            Navbar Part End
        ======================= -->
 
-    <!-- ====================
-           Navbar Part Start
-       ======================= -->
-    <!-- ====================
-           Navbar Part End
-       ======================= -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/all.min.js"></script>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
 </html>
