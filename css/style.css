@@ -200,6 +200,37 @@ ol {
   padding-top: 40px;
   color: #383838;
 }
+#banner .banner_details {
+  border-radius: 32px;
+  margin-top: 32px;
+}
+#banner .banner_details .banner_text {
+  text-align: center;
+  padding: 211px 0;
+}
+#banner .banner_details .banner_text .b_text {
+  background: rgba(244, 228, 228, 0.7098039216);
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 32px;
+  border-radius: 15px;
+}
+#banner .banner_details .banner_text .b_text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+}
+#banner .banner_details .banner_text .b_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  width: 368px;
+  margin: 0 auto;
+  padding-top: 16px;
+}
 
 #category {
   padding-bottom: 106px;

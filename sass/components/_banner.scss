@@ -96,4 +96,28 @@
       }
     }
   }
+  .banner_details {
+    border-radius: 32px;
+    margin-top: 32px;
+    .banner_text {
+      text-align: center;
+      padding: 211px 0;
+      .b_text {
+        background: #f4e4e4b5;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 32px;
+        border-radius: 15px;
+        h2 {
+          @include common_h2;
+        }
+        p {
+          @include common_p;
+          width: 368px;
+          margin: 0 auto;
+          padding-top: 16px;
+        }
+      }
+    }
+  }
 }
