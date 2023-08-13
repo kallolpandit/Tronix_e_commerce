@@ -14,6 +14,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -356,4 +360,70 @@ ol {
 }
 #new_arrival .new_items .new_text .details span .star {
   color: #ffd687;
+}
+
+#flash_sale {
+  background: rgba(244, 106, 91, 0.1058823529);
+  padding: 135px 0;
+}
+#flash_sale .sale_text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+  padding-bottom: 36px;
+}
+#flash_sale .sale_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+}
+#flash_sale .sale_text ul {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  padding-bottom: 36px;
+}
+#flash_sale .sale_text ul li {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #f46b5b;
+  border: 1px solid #a7a7a7;
+  text-align: center;
+  border-radius: 16px;
+  padding: 8px 18px;
+}
+#flash_sale .sale_text ul li span {
+  display: block;
+  color: #363636;
+  font-size: 16px;
+}
+#flash_sale .sale_text h3 {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #363636;
+  width: 275px;
+  padding-bottom: 16px;
+}
+#flash_sale .sale_text a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  padding: 16px 30px;
+  background: #f46b5b;
+  border-radius: 16px;
+  color: #fff;
+  margin-top: 42px;
+  border: 1px solid #f46b5b;
+  transition: all linear 0.3s;
+}
+#flash_sale .sale_text a:hover {
+  color: #383838;
+  background: transparent;
 }/*# sourceMappingURL=style.css.map */

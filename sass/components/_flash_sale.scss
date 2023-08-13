@@ -1,0 +1,59 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#flash_sale {
+  background: #f46a5b1b;
+  padding: 135px 0;
+  .sale_text {
+    h2 {
+      @include common_h2;
+      padding-bottom: 36px;
+    }
+    p {
+      @include common_p;
+    }
+    ul {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      padding-top: 25px;
+      padding-bottom: 36px;
+
+      li {
+        @include common_p;
+        color: $brand_color;
+        border: 1px solid $border_color;
+        text-align: center;
+        border-radius: 16px;
+        padding: 8px 18px;
+        span {
+          display: block;
+          color: $secondary_color;
+          font-size: 16px;
+        }
+      }
+    }
+    h3 {
+      font-size: 26px;
+      font-family: $primary_font;
+      font-weight: 500;
+      color: $secondary_color;
+      width: 275px;
+      padding-bottom: 16px;
+    }
+    a {
+      @include common_p;
+      padding: 16px 30px;
+      background: $brand_color;
+      border-radius: 16px;
+      color: #fff;
+      margin-top: 42px;
+      border: 1px solid $brand_color;
+      transition: all linear 0.3s;
+      &:hover {
+        color: $primary_color;
+        background: transparent;
+      }
+    }
+  }
+}
