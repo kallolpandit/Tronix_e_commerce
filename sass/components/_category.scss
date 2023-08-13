@@ -1,0 +1,29 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#category {
+  padding-bottom: 106px;
+  .cat_heading h2 {
+    @include common_h2;
+    padding-bottom: 32px;
+  }
+  .cat_details {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: baseline;
+    .cat_items {
+      text-align: center;
+      width: 200px;
+      span img {
+        width: 36px;
+      }
+      a {
+        @include common_p;
+        padding-top: 15px;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+}

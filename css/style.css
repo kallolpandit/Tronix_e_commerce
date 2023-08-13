@@ -6,6 +6,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -74,8 +78,8 @@ ol {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  color: #363636;
   color: #383838;
-  color: #000000;
   transition: all linear 0.3s;
 }
 .menu .menu_list li a:hover {
@@ -180,7 +184,7 @@ ol {
   font-size: 56px;
   font-weight: 800;
   font-family: "Montserrat", sans-serif;
-  color: #000000;
+  color: #383838;
   width: 680px;
   margin: 0 auto;
   background: rgba(244, 228, 228, 0.7098039216);
@@ -189,10 +193,43 @@ ol {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #383838;
+  color: #363636;
   line-height: 40px;
   width: 670px;
   margin: 0 auto;
   padding-top: 40px;
-  color: #000000;
+  color: #383838;
+}
+
+#category {
+  padding-bottom: 106px;
+}
+#category .cat_heading h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+  padding-bottom: 32px;
+}
+#category .cat_details {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: baseline;
+}
+#category .cat_details .cat_items {
+  text-align: center;
+  width: 200px;
+}
+#category .cat_details .cat_items span img {
+  width: 36px;
+}
+#category .cat_details .cat_items a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  padding-top: 15px;
+  margin: 0 auto;
+  display: block;
 }/*# sourceMappingURL=style.css.map */
