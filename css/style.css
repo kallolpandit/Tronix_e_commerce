@@ -18,6 +18,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -428,6 +432,19 @@ ol {
   color: #383838;
   background: transparent;
 }
+#flash_sale .sale_slide {
+  position: relative;
+}
+#flash_sale .sale_slide .next_arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  z-index: 999;
+  padding: 8px 12px;
+  background: #fff;
+  color: #f46b5b;
+  border-radius: 8px;
+}
 #flash_sale .sale_slide .sale_items {
   text-align: center;
   position: relative;
@@ -483,4 +500,26 @@ ol {
   padding-top: 24px;
   display: flex;
   justify-content: space-between;
+}
+
+#fea_product {
+  padding: 160px 0;
+}
+#fea_product .product_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#fea_product .product_heading h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+}
+#fea_product .product_heading a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #f46b5b;
 }/*# sourceMappingURL=style.css.map */

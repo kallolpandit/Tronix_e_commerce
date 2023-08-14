@@ -57,6 +57,17 @@
     }
   }
   .sale_slide {
+    position: relative;
+    .next_arrow {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      z-index: 999;
+      padding: 8px 12px;
+      background: #fff;
+      color: $brand_color;
+      border-radius: 8px;
+    }
     .sale_items {
       text-align: center;
       position: relative;
