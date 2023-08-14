@@ -42,6 +42,7 @@ img {
 }
 
 p,
+a,
 h1,
 h2,
 h3,
@@ -58,7 +59,7 @@ ol {
   padding: 46px 0;
 }
 .menu .search {
-  margin-left: 128px;
+  margin-left: 70px;
 }
 .menu .search input {
   background: #d0d0d2;
@@ -79,8 +80,8 @@ ol {
   color: #fff;
 }
 .menu .menu_list {
-  margin-left: 90px;
-  gap: 40px;
+  margin-left: 50px;
+  gap: 26px;
 }
 .menu .menu_list li a {
   font-family: "Poppins", sans-serif;
@@ -426,4 +427,60 @@ ol {
 #flash_sale .sale_text a:hover {
   color: #383838;
   background: transparent;
+}
+#flash_sale .sale_slide .sale_items {
+  text-align: center;
+  position: relative;
+  margin-right: 32px;
+}
+#flash_sale .sale_slide .sale_items .off {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#flash_sale .sale_slide .sale_items .off p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 20px;
+  background: #bb6bd9;
+  border-radius: 8px;
+}
+#flash_sale .sale_slide .sale_items img {
+  width: 100%;
+  height: 300px;
+}
+#flash_sale .sale_slide .sale_items .items_text {
+  padding: 32px 10px;
+  background: #fff;
+  border: 1px solid #a7a7a7;
+  border-top: none;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+#flash_sale .sale_slide .sale_items .items_text h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+}
+#flash_sale .sale_slide .sale_items .items_text h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #a7a7a7;
+  padding-top: 10px;
+}
+#flash_sale .sale_slide .sale_items .items_text h5 span {
+  color: #f46b5b;
+  padding-left: 10px;
+}
+#flash_sale .sale_slide .sale_items .items_text p {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

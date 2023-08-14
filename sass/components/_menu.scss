@@ -3,7 +3,7 @@
 .menu {
   padding: 46px 0;
   .search {
-    margin-left: 128px;
+    margin-left: 70px;
     input {
       background: #d0d0d2;
       border: none;
@@ -21,8 +21,8 @@
     }
   }
   .menu_list {
-    margin-left: 90px;
-    gap: 40px;
+    margin-left: 50px;
+    gap: 26px;
     li a {
       @include common_p;
       color: $primary_color;

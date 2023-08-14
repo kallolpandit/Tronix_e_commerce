@@ -56,4 +56,54 @@
       }
     }
   }
+  .sale_slide {
+    .sale_items {
+      text-align: center;
+      position: relative;
+      margin-right: 32px;
+
+      .off {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        p {
+          @include common_p;
+          font-size: 14px;
+          color: #fff;
+          padding: 10px 20px;
+          background: #bb6bd9;
+          border-radius: 8px;
+        }
+      }
+      img {
+        width: 100%;
+        height: 300px;
+      }
+      .items_text {
+        padding: 32px 10px;
+        background: #fff;
+        border: 1px solid $border_color;
+        border-top: none;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        h4 {
+          @include common_p;
+        }
+        h5 {
+          @include common_p;
+          color: $border_color;
+          padding-top: 10px;
+          span {
+            color: $brand_color;
+            padding-left: 10px;
+          }
+        }
+        p {
+          padding-top: 24px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
 }
