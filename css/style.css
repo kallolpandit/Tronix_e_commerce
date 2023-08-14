@@ -501,6 +501,12 @@ ol {
   display: flex;
   justify-content: space-between;
 }
+#flash_sale .sale_slide .sale_items .progress {
+  margin-top: 10px;
+}
+#flash_sale .sale_slide .sale_items .progress .progress-bar {
+  background: #f46b5b;
+}
 
 #fea_product {
   padding: 160px 0;

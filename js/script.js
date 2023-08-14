@@ -12,7 +12,7 @@ $(".banner_slide").slick({
 $(".sale_slide").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 2000,
   arrow: true,
   dots: false,
