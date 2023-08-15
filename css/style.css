@@ -429,7 +429,7 @@ ol {
   transition: all linear 0.3s;
 }
 #flash_sale .sale_text a:hover {
-  color: #383838;
+  color: #f46b5b;
   background: transparent;
 }
 #flash_sale .sale_slide {
@@ -528,4 +528,101 @@ ol {
   font-weight: 400;
   color: #363636;
   color: #f46b5b;
+}
+#fea_product .product_items {
+  text-align: center;
+  position: relative;
+  margin-top: 54px;
+  margin-left: 5px;
+}
+#fea_product .product_items img {
+  width: 100%;
+  height: 450px;
+}
+#fea_product .product_items .new {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#fea_product .product_items .new p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px;
+  background: #2d9cdb;
+  border-radius: 8px;
+}
+#fea_product .product_items .new .off {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px;
+  margin-top: 16px;
+  background: #bb6bd9;
+}
+#fea_product .product_items .new .off span {
+  display: block;
+}
+#fea_product .product_items .new .off span p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 10px;
+  background: #2d9cdb;
+  border-radius: 8px;
+}
+#fea_product .product_items .new .sold {
+  background: #383838;
+}
+#fea_product .product_items .items_text {
+  padding: 32px 10px;
+  background: #fff;
+  border: 1px solid #a7a7a7;
+  border-top: none;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+#fea_product .product_items .items_text h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+}
+#fea_product .product_items .items_text h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #a7a7a7;
+  padding-top: 10px;
+  padding-bottom: 24px;
+}
+#fea_product .product_items .items_text h5 span {
+  color: #f46b5b;
+  padding-left: 10px;
+}
+#fea_product .product_items .items_text a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  padding: 10px 26px;
+  color: #fff;
+  background: #f46b5b;
+  border: 1px solid #f46b5b;
+  border-radius: 8px;
+  transition: all linear 0.3s;
+}
+#fea_product .product_items .items_text a:hover {
+  color: #f46b5b;
+  background: transparent;
 }/*# sourceMappingURL=style.css.map */
