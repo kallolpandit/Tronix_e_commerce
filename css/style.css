@@ -22,6 +22,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -537,7 +545,7 @@ ol {
 }
 #fea_product .product_items img {
   width: 100%;
-  height: 450px;
+  height: 350px;
 }
 #fea_product .product_items .new {
   position: absolute;
@@ -625,4 +633,107 @@ ol {
 #fea_product .product_items .items_text a:hover {
   color: #f46b5b;
   background: transparent;
+}
+
+#top_product {
+  padding-bottom: 160px;
+}
+#top_product .top_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 32px;
+}
+#top_product .top_heading h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+}
+#top_product .top_heading a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #f46b5b;
+}
+#top_product .top_items {
+  padding: 28px;
+  border: 1px solid #a7a7a7;
+  border-radius: 16px;
+}
+#top_product .top_items img {
+  border-radius: 16px;
+  width: 100%;
+  height: 150px;
+}
+#top_product .top_items .items_text {
+  text-align: center;
+  padding-top: 32px;
+}
+#top_product .top_items .items_text h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+}
+#top_product .top_items .items_text h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #f46b5b;
+  padding-top: 10px;
+}
+#top_product .top_items .items_text .details {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #a7a7a7;
+  gap: 15px;
+  margin-top: 16px;
+}
+#top_product .top_items .items_text .details span {
+  display: flex;
+  gap: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #a7a7a7;
+}
+#top_product .top_items .items_text .details span .star {
+  color: #f46b5b;
+}
+#top_product .top_items .items_text a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  padding: 10px 26px;
+  background: #f46b5b;
+  border: 1px solid #f46b5b;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 24px;
+  transition: all linear 0.3s;
+}
+#top_product .top_items .items_text a:hover {
+  background: transparent;
+  color: #f46b5b;
+}
+
+#brand {
+  padding-bottom: 160px;
+}
+#brand .brand_tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#brand .brand_tag .name a {
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: rgba(56, 56, 56, 0.4666666667);
 }/*# sourceMappingURL=style.css.map */

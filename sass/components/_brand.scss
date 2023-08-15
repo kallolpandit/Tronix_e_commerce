@@ -1,0 +1,17 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#brand {
+  padding-bottom: 160px;
+  .brand_tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .name a {
+      font-size: 36px;
+      font-family: $heading_font;
+      font-weight: 800;
+      color: #38383877;
+    }
+  }
+}
