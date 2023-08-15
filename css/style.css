@@ -30,6 +30,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -219,7 +231,7 @@ ol {
   width: 670px;
   margin: 0 auto;
   padding-top: 40px;
-  color: #383838;
+  color: rgba(255, 255, 255, 0.8745098039);
 }
 #banner .banner_details {
   border-radius: 32px;
@@ -736,4 +748,141 @@ ol {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   color: rgba(56, 56, 56, 0.4666666667);
+}
+
+#blog {
+  padding-bottom: 80px;
+}
+#blog .blog_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#blog .blog_heading h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+}
+#blog .blog_heading a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #f46b5b;
+}
+#blog .blog_items {
+  padding-top: 32px;
+}
+#blog .blog_items img {
+  width: 100%;
+  border-radius: 16px;
+}
+#blog .blog_items h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-weight: 500;
+  padding-top: 32px;
+  width: 350px;
+}
+#blog .blog_items p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  color: #a7a7a7;
+  padding-top: 16px;
+  width: 455px;
+}
+#blog .blog_items p span {
+  color: #f46b5b;
+}
+#blog .blog_list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+#blog .blog_list .blog_text h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-weight: 500;
+}
+#blog .blog_list .blog_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  color: #a7a7a7;
+  padding-top: 16px;
+  width: 455px;
+}
+#blog .blog_list .blog_text p span {
+  color: #f46b5b;
+}
+#blog .blog_list .blog_img img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+#join {
+  padding: 100px 0;
+  background: #f46b5b;
+}
+#join .join_text {
+  text-align: center;
+}
+#join .join_text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+  color: #fff;
+  padding-bottom: 16px;
+}
+#join .join_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  color: #fff;
+}
+#join .join_text .input {
+  padding: 10px;
+  background: #ffffff;
+  width: 535px;
+  border-radius: 16px;
+  margin: 52px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+#join .join_text .input input {
+  border: none;
+  margin-left: 25px;
+}
+#join .join_text .input button {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #fff;
+  padding: 16px 32px;
+  background: #383838;
+  border: none;
+  border-radius: 16px;
+  transition: all linear 0.3s;
+}
+#join .join_text .input button:hover {
+  background: #f46b5b;
+}
+
+#footer {
+  padding: 80px 0;
 }/*# sourceMappingURL=style.css.map */
