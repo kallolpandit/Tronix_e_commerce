@@ -884,5 +884,99 @@ ol {
 }
 
 #footer {
-  padding: 80px 0;
+  padding-top: 80px;
+}
+#footer .footer_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  width: 380px;
+  padding-top: 16px;
+}
+#footer .footer_text ul {
+  display: flex;
+  gap: 24px;
+  padding-top: 36px;
+}
+#footer .footer_text ul li a {
+  font-size: 18px;
+  padding: 6px 10px;
+  background: #f46b5b;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #f46b5b;
+  transition: all linear 0.3s;
+}
+#footer .footer_text ul li a:hover {
+  color: #f46b5b;
+  background: transparent;
+}
+#footer .footer_menu {
+  margin-left: 160px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+#footer .footer_menu .list h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-weight: bold;
+  padding-bottom: 32px;
+}
+#footer .footer_menu .list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#footer .footer_menu .list ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  transition: all linear 0.3s;
+}
+#footer .footer_menu .list ul li a:hover {
+  color: #f46b5b;
+}
+#footer .footer_menu .list .contact {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #f46b5b;
+}
+#footer .footer_menu .list .contact a {
+  font-size: 16px;
+  color: #363636;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: all linear 0.3s;
+}
+#footer .footer_menu .list .contact a:hover {
+  color: #f46b5b;
+}
+#footer .copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #a7a7a7;
+  padding: 40px 0;
+}
+#footer .copyright p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+}
+#footer .copyright p span {
+  color: #f46b5b;
+}
+#footer .copyright ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
