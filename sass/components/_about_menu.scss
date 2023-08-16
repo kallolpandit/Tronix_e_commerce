@@ -1,0 +1,60 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+.menu {
+  padding: 46px 0;
+  .search {
+    margin-left: 70px;
+    input {
+      background: #d0d0d2;
+      border: none;
+      box-shadow: none;
+      &::placeholder {
+        color: #a7a7a7;
+      }
+    }
+    .s_btn {
+      border-color: $brand_color;
+      background: $brand_color;
+      span {
+        color: #fff;
+      }
+    }
+  }
+  .menu_list {
+    margin-left: 50px;
+    gap: 26px;
+    li a {
+      @include common_p;
+      color: $primary_color;
+      transition: all linear 0.3s;
+      &:hover {
+        color: $brand_color;
+      }
+    }
+  }
+  .menu_chart ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    li {
+      position: relative;
+      p {
+        position: absolute;
+        top: -15px;
+        right: -18px;
+        background: $brand_color;
+        color: #fff;
+        padding: 2px 6px;
+        border-radius: 50%;
+      }
+      a {
+        font-size: 28px;
+        color: #000000;
+        transition: all linear 0.3s;
+        &:hover {
+          color: $brand_color;
+        }
+      }
+    }
+  }
+}
