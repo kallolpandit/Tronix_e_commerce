@@ -275,6 +275,27 @@
 #categories_banner .cat_menu .rating_accordion .accordion-item .accordion-body form input {
   margin-right: 16px;
 }
+#categories_banner .cat_menu .filter_accordion {
+  padding: 32px 0 16px;
+  border-bottom: 1px solid #a7a7a7;
+}
+#categories_banner .cat_menu .filter_accordion h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+}
+#categories_banner .cat_menu .filter_accordion h2 .accordion-button {
+  background-color: transparent;
+  border-bottom: none;
+}
+#categories_banner .cat_menu .filter_accordion h2 .accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+#categories_banner .cat_menu .filter_accordion h2 .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
 #categories_banner .cat_menu .filter {
   text-align: center;
   padding-top: 56px;
@@ -305,6 +326,31 @@
   background: transparent;
   border: none;
   padding-top: 32px;
+}
+#categories_banner .categories_details {
+  padding-left: 32px;
+  text-align: center;
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+#categories_banner .categories_details .cat_items {
+  padding: 15px 50px;
+  border: 1px solid #a7a7a7;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+#categories_banner .categories_details .cat_items img {
+  width: 46px;
+  height: 46px;
+}
+#categories_banner .categories_details .cat_items p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 14px;
+  padding-top: 10px;
 }
 
 #join {
