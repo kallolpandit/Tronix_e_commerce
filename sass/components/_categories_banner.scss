@@ -131,18 +131,46 @@
             }
           }
         }
-      }
-      .accordion-body {
-        form {
-          @include common_p;
-          color: $border_color;
-          font-size: 16px;
-          input {
-            margin-right: 16px;
+        .accordion-body {
+          form {
+            @include common_p;
+            color: $border_color;
+            font-size: 16px;
+            input {
+              margin-right: 16px;
+            }
           }
-          //   label:hover {
-          //     color: $brand_color;
-          //   }
+        }
+      }
+    }
+    .rating_accordion {
+      padding: 32px 0 16px;
+      border-bottom: 1px solid $border_color;
+      .accordion-item {
+        border: none;
+        h2 {
+          @include common_p;
+          .accordion-button {
+            background-color: transparent;
+            border-bottom: none;
+            &:not(.collapsed) {
+              background-color: transparent;
+            }
+            &:focus {
+              border-color: transparent;
+              box-shadow: none;
+            }
+          }
+        }
+        .accordion-body {
+          form {
+            @include common_p;
+            color: #ffd687;
+            font-size: 16px;
+            input {
+              margin-right: 16px;
+            }
+          }
         }
       }
     }
