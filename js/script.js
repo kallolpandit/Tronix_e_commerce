@@ -16,7 +16,7 @@ $(".sale_slide").slick({
   autoplaySpeed: 2000,
   arrow: true,
   dots: false,
-  prevArrow: false,
+  // prevArrow: true,
   nextArrow: '<i class="fa-solid fa-chevron-right next_arrow"></i>',
 });
 // ========================Sale Slide End===============================

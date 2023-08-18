@@ -2,17 +2,24 @@
 @import "../mixins/mixins";
 
 #about_banner {
-  padding: 150px 0;
+  padding: 36px 0 150px;
   .menu_tag {
     display: flex;
     gap: 16px;
     align-items: center;
+    color: $border_color;
     a {
       display: block;
-      color: $brand_color;
+      color: $border_color !important;
+      @include common_p;
+    }
+    .about {
+      color: $brand_color !important;
     }
   }
   .about_heading {
+    text-align: center;
+    padding-top: 48px;
     h1 {
       font-size: 56px;
       font-weight: 800;
@@ -23,6 +30,9 @@
     }
     p {
       @include common_p;
+      width: 1056px;
+      margin: 0 auto;
+      padding: 32px 0 80px;
     }
     .about_img {
       img {
