@@ -1,0 +1,33 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#categories_banner {
+  padding: 40px 0 160px;
+  .menu_tag {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: $border_color;
+    a {
+      display: block;
+      color: $border_color !important;
+      @include common_p;
+    }
+    .categories {
+      color: $brand_color !important;
+    }
+  }
+  .categories_heading {
+    text-align: center;
+    padding-top: 48px;
+    h2 {
+      @include common_h2;
+    }
+    p {
+      @include common_p;
+      width: 625px;
+      margin: 0 auto;
+      padding: 24px 0 80px;
+    }
+  }
+}
