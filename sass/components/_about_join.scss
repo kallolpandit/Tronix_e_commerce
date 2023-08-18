@@ -1,0 +1,52 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#join {
+  padding: 70px 0;
+  background: $brand_color;
+  .join_details {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .join_text {
+      padding-top: 30px;
+      h2 {
+        @include common_h2;
+        color: #fff;
+        padding-bottom: 16px;
+      }
+      p {
+        @include common_p;
+        font-size: 16px;
+        color: #fff;
+      }
+    }
+
+    .input {
+      padding: 10px;
+      background: #ffffff;
+      width: 525px;
+      border-radius: 16px;
+      margin: 52px auto 0;
+      display: flex;
+      justify-content: space-between;
+      input {
+        border: none;
+        margin-left: 25px;
+      }
+      button {
+        @include common_p;
+        color: #fff;
+        padding: 16px 32px;
+        background: $primary_color;
+        border: none;
+        border-radius: 16px;
+        transition: all linear 0.3s;
+        &:hover {
+          background: $brand_color;
+        }
+      }
+    }
+  }
+}
