@@ -1539,6 +1539,37 @@ ol {
 #categories_banner .cat_menu .rating_accordion .accordion-item .accordion-body form input {
   margin-right: 16px;
 }
+#categories_banner .cat_menu .filter {
+  text-align: center;
+  padding-top: 56px;
+}
+#categories_banner .cat_menu .filter a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 60px;
+  background: #f46b5b;
+  border: 1px solid #f46b5b;
+  transition: all linear 0.3s;
+}
+#categories_banner .cat_menu .filter a:hover {
+  background: transparent;
+  color: #f46b5b;
+}
+#categories_banner .cat_menu .filter button {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #f46b5b;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  padding-top: 32px;
+}
 
 #join {
   padding: 70px 0;
