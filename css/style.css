@@ -54,6 +54,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -1138,6 +1142,58 @@ ol {
   padding: 32px 0 10px;
 }
 #choose .choose_us .choose_items p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+}
+
+#team {
+  padding-bottom: 160px;
+}
+#team .team_heading {
+  text-align: center;
+}
+#team .team_heading h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+}
+#team .team_heading p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  width: 626px;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+#team .team_members {
+  text-align: center;
+  padding-top: 80px;
+}
+#team .team_members img {
+  width: 100%;
+  height: 350px;
+  border-radius: 16px;
+}
+#team .team_members .members_details {
+  background: #fff;
+  border-radius: 16px;
+  padding: 34px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#team .team_members .members_details h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+#team .team_members .members_details p {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
