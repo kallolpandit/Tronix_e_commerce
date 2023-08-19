@@ -1340,7 +1340,7 @@ ol {
 }
 
 #categories_banner {
-  padding: 40px 0 160px;
+  padding: 40px 0 120px;
 }
 #categories_banner .menu_tag {
   display: flex;
@@ -1592,7 +1592,6 @@ ol {
   padding-top: 32px;
 }
 #categories_banner .categories_details {
-  padding-left: 32px;
   text-align: center;
   display: flex;
   gap: 36px;
@@ -1615,6 +1614,128 @@ ol {
   color: #363636;
   font-size: 14px;
   padding-top: 10px;
+}
+#categories_banner .cat_brand {
+  padding: 80px 0;
+}
+#categories_banner .cat_brand h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+}
+#categories_banner .cat_brand .brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+}
+#categories_banner .cat_brand .brand .name a {
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: rgba(56, 56, 56, 0.4666666667);
+}
+#categories_banner .product_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 32px;
+}
+#categories_banner .product_heading h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+  font-size: 24px;
+}
+#categories_banner .product_heading a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #f46b5b;
+}
+#categories_banner .product_list {
+  padding: 26px;
+  border: 1px solid #a7a7a7;
+  border-radius: 16px;
+}
+#categories_banner .product_list img {
+  width: 100%;
+  height: 160px;
+  border-radius: 16px;
+}
+#categories_banner .product_list .list_text {
+  text-align: center;
+  padding-top: 32px;
+}
+#categories_banner .product_list .list_text h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  font-weight: 500;
+}
+#categories_banner .product_list .list_text h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #f46b5b;
+  padding-top: 10px;
+  font-size: 16px;
+}
+#categories_banner .product_list .list_text .details {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #a7a7a7;
+  gap: 10px;
+  margin-top: 16px;
+}
+#categories_banner .product_list .list_text .details span {
+  display: flex;
+  gap: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #a7a7a7;
+}
+#categories_banner .product_list .list_text .details span .star {
+  color: #ffd687;
+}
+#categories_banner .product_list .list_text .add {
+  display: flex;
+  align-items: last baseline;
+  gap: 15px;
+  justify-content: center;
+}
+#categories_banner .product_list .list_text .add a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  padding: 10px 22px;
+  background: #f46b5b;
+  border: 1px solid #f46b5b;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 24px;
+  transition: all linear 0.3s;
+}
+#categories_banner .product_list .list_text .add a:hover {
+  background: transparent;
+  color: #f46b5b;
+}
+#categories_banner .product_list .list_text .add span {
+  color: #a7a7a7;
+}
+#categories_banner .last_row {
+  margin-top: 32px;
 }
 
 #join {
