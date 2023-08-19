@@ -1837,6 +1837,7 @@ ol {
 #singleproduct_details .product_slide .slide_items img {
   width: 100%;
   height: 450px;
+  border-radius: 8px;
 }
 #singleproduct_details .product_slide_sub {
   position: relative;
@@ -1846,7 +1847,8 @@ ol {
 }
 #singleproduct_details .product_slide_sub .slide_items img {
   width: 100%;
-  height: 120px;
+  height: 100px;
+  border-radius: 8px;
 }
 #singleproduct_details .product_slide_sub .pre_arrow {
   position: absolute;
@@ -2021,4 +2023,66 @@ ol {
   color: #363636;
   color: #a7a7a7;
   font-size: 16px;
+}
+#singleproduct_details .quantity {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+#singleproduct_details .quantity .quantity_items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#singleproduct_details .quantity .quantity_items p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #a7a7a7;
+}
+#singleproduct_details .quantity .quantity_items .symble {
+  display: flex;
+}
+#singleproduct_details .quantity .quantity_items .symble p {
+  padding: 10px 20px;
+  background: #f46b5b;
+  border-radius: 8px;
+}
+#singleproduct_details .quantity .quantity_items .symble .minus {
+  background: #a7a7a7;
+  color: #383838;
+}
+#singleproduct_details .quantity .quantity_items .symble .one {
+  background: transparent;
+  color: #f46b5b;
+}
+#singleproduct_details .quantity .quantity_items .symble .plus {
+  color: #fff;
+}
+#singleproduct_details .quantity .quantity_chart {
+  display: flex;
+  gap: 16px;
+}
+#singleproduct_details .quantity .quantity_chart .chat {
+  color: #f46b5b;
+  background: transparent;
+}
+#singleproduct_details .quantity .quantity_chart a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 16px;
+  padding: 16px 30px;
+  display: inline-block;
+  border: 1px solid #f46b5b;
+  border-radius: 8px;
+  background: #f46b5b;
+  color: #fff;
+  transition: all linear 0.3s;
+}
+#singleproduct_details .quantity .quantity_chart a:hover {
+  background: transparent;
+  color: #f46b5b;
 }/*# sourceMappingURL=style.css.map */

@@ -9,6 +9,7 @@
       img {
         width: 100%;
         height: 450px;
+        border-radius: 8px;
       }
     }
   }
@@ -21,7 +22,8 @@
 
       img {
         width: 100%;
-        height: 120px;
+        height: 100px;
+        border-radius: 8px;
       }
     }
 
@@ -176,6 +178,62 @@
       @include common_p;
       color: $border_color;
       font-size: 16px;
+    }
+  }
+  .quantity {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    .quantity_items {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      p {
+        @include common_p;
+        color: $border_color;
+      }
+      .symble {
+        display: flex;
+        p {
+          padding: 10px 20px;
+          background: $brand_color;
+          border-radius: 8px;
+        }
+        .minus {
+          background: $border_color;
+          color: $primary_color;
+        }
+        .one {
+          background: transparent;
+          color: $brand_color;
+        }
+        .plus {
+          color: #fff;
+        }
+      }
+    }
+    .quantity_chart {
+      display: flex;
+      gap: 16px;
+      .chat {
+        color: $brand_color;
+        background: transparent;
+      }
+      a {
+        @include common_p;
+        font-size: 16px;
+        padding: 16px 30px;
+        display: inline-block;
+        border: 1px solid $brand_color;
+        border-radius: 8px;
+        background: $brand_color;
+        color: #fff;
+        transition: all linear 0.3s;
+        &:hover {
+          background: transparent;
+          color: $brand_color;
+        }
+      }
     }
   }
 }
