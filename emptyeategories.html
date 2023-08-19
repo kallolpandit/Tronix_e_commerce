@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tronix E-Commerce Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- ===========================
+        Categories Navbar Part Start
+    ============================== -->
+    <nav class="navbar navbar-expand-lg menu">
+        <div class="container px-0">
+            <div>
+                <a class="navbar-brand logo" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="search">
+                <form class="d-flex">
+                    <input class="form-control" type="search" placeholder="Search here" aria-label="Search" />
+                    <button class="btn btn-outline-success s_btn" type="submit">
+                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </button>
+                </form>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 menu_list">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu_chart">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                        <p>99</p>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                    </li>
+                    <!-- <li>
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+              </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ===========================
+        Categories Navbar Part End
+    ============================== -->
+
+    <!-- ===========================
+        Categories Banner Part Start
+    ============================== -->
+    <section id="categories_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="menu_tag">
+                        <a href="index.html">Home</a>
+                        <span><i class="fa-solid fa-chevron-right"></i></span>
+                        <a href="categories.html" class="categories">All Categories</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="cat_menu">
+                            <div class="all">
+                                <h4>All Categories</h4>
+                                <ul>
+                                    <li>Computer & Laptop <span>(25)</span></li>
+                                    <li>Mobile & Tablet <span>(125)</span></li>
+                                    <li>Camera <span>(150)</span></li>
+                                    <li>TV & Smart Box <span>(75)</span></li>
+                                    <li>Home Appliance <span>(75)</span></li>
+                                    <li>Smart Watch <span>(45)</span></li>
+                                    <li>Microphone & Audio <span>(55)</span></li>
+                                    <li>Gaming <span>(40)</span></li>
+                                    <li>Printer<span>(14)</span></li>
+                                    <li>Accessories<span>(32)</span></li>
+                                    <li>More Categories <span>(10)</span></li>
+                                </ul>
+                            </div>
+                            <div class="accordion price_accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <span></span>
+                                            Filter by Price
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 45%"
+                                                    aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p>Price : <span> $100 - $250</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion accordion-flush location_accordion" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <span></span>
+                                            Filter by Location
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <form action="">
+                                                <input type="checkbox" id="Jakarta" name="Jakarta" value="Bike" />
+                                                <label for="Jakarta"> Jakarta</label><br />
+                                                <br />
+                                                <input type="checkbox" id="Yogyakarta" name="Yogyakarta" value="Car" />
+                                                <label for="Yogyakarta"> Yogyakarta</label><br />
+                                                <br />
+                                                <input type="checkbox" id="Semarang" name="Semarang" value="Boat" />
+                                                <label for="Semarang"> Semarang</label><br />
+                                                <br />
+                                                <input type="checkbox" id="Surabaya" name="Surabaya" value="Boat" />
+                                                <label for="Surabaya"> Surabaya</label><br />
+                                                <br />
+                                                <input type="checkbox" id="Bandung" name="Bandung" value="Boat" />
+                                                <label for="Bandung"> Bandung</label><br />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion accordion-flush rating_accordion" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <span></span>
+                                            Filter by Rating
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <form action="">
+                                                <input type="checkbox" id="Jakarta" name="Jakarta" value="Bike" />
+                                                <label for="Jakarta">
+                                                    <span><i class="fa-solid fa-star"></i></span></label><br />
+                                                <br />
+                                                <input type="checkbox" id="Yogyakarta" name="Yogyakarta" value="Car" />
+                                                <label for="Yogyakarta">
+                                                    <span><i class="fa-solid fa-star"></i></span>
+                                                    <span><i class="fa-solid fa-star"></i></span></label><br />
+                                                <br />
+                                                <input type="checkbox" id="Semarang" name="Semarang" value="Boat" />
+                                                <label for="Semarang">
+                                                    <span><i class="fa-solid fa-star"></i></span>
+                                                    <span><i class="fa-solid fa-star"></i></span>
+                                                    <span><i class="fa-solid fa-star"></i></span></label><br />
+                                                <br />
+                                                <input type="checkbox" id="Surabaya" name="Surabaya" value="Boat" />
+                                                <label for="Surabaya">
+                                                    <span><i class="fa-solid fa-star"></i></span>
+                                                    <span><i class="fa-solid fa-star"></i></span>
+                                                    <span><i class="fa-solid fa-star"></i></span>
+                                                    <span><i class="fa-solid fa-star"></i></span></label><br />
+                                                <br />
+                                                <input type="checkbox" id="Bandung" name="Bandung" value="Boat" />
+                                                <label for="Bandung">
+                                                    <span><i class="fa-solid fa-star star"></i></span>
+                                                    <span><i class="fa-solid fa-star star"></i></span>
+                                                    <span><i class="fa-solid fa-star star"></i></span>
+                                                    <span><i class="fa-solid fa-star star"></i></span>
+                                                    <span><i class="fa-solid fa-star star"></i></span></label><br />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion accordion-flush filter_accordion" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Filter by Brand
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body"></div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Filter by Promotion
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body"></div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Filter by Payment
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body"></div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Filter by Shipment
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter">
+                                <a href="#">Filter</a>
+                                <button>Reset Filter</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="empty">
+                                    <div class="empty_img">
+                                        <img src="./images/Search Error.png" alt="Search Error">
+                                    </div>
+                                    <h2>Oops, sorry!</h2>
+                                    <p>The product you are looking for is currently unavailable or try to search using other keywords
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="product_heading">
+                                    <h3>You May Like</h3>
+                                    <a href="#">View All</a>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="product_list last_row">
+                                            <img src="./images/microphone.jpg" alt="Microphone" />
+                                            <div class="list_text">
+                                                <h4>Wireless Microphone</h4>
+                                                <h5>$1000.00</h5>
+                                                <div class="details">
+                                                    <span>
+                                                        <p class="star"><i class="fa-solid fa-star"></i></p>
+                                                        <p>5.0</p>
+                                                    </span>
+                                                    <p>Sold 99</p>
+                                                </div>
+                                                <div class="add">
+                                                    <a href="#">Add to Cart</a>
+                                                    <span><i class="fa-solid fa-heart"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="product_list last_row">
+                                            <img src="./images/smartwatch.jpg" alt="smartwatch" />
+                                            <div class="list_text">
+                                                <h4>Smart Watch New Series</h4>
+                                                <h5>$1000.00</h5>
+                                                <div class="details">
+                                                    <span>
+                                                        <p class="star"><i class="fa-solid fa-star"></i></p>
+                                                        <p>5.0</p>
+                                                    </span>
+                                                    <p>Sold 99</p>
+                                                </div>
+                                                <div class="add">
+                                                    <a href="#">Add to Cart</a>
+                                                    <span><i class="fa-solid fa-heart"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="product_list last_row">
+                                            <img src="./images/cameralense.jpg" alt="cameralense" />
+                                            <div class="list_text">
+                                                <h4>Camera HD + Lens</h4>
+                                                <h5>$1000.00</h5>
+                                                <div class="details">
+                                                    <span>
+                                                        <p class="star"><i class="fa-solid fa-star"></i></p>
+                                                        <p>5.0</p>
+                                                    </span>
+                                                    <p>Sold 99</p>
+                                                </div>
+                                                <div class="add">
+                                                    <a href="#">Add to Cart</a>
+                                                    <span><i class="fa-solid fa-heart"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ===========================
+        Categories Banner Part End
+    ============================== -->
+
+    <!-- ===========================
+        Categories Join Part Start
+    ============================== -->
+    <section id="join">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="join_details">
+                        <div class="join_text">
+                            <h2>Join our newsletter now!</h2>
+                            <p>Register now and get our latest updates and promos.</p>
+                        </div>
+                        <div class="input">
+                            <input type="email" placeholder="Enter your email " />
+                            <button>Join</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===========================
+        Categories Join Part End
+    ============================== -->
+
+    <!-- ===========================
+        Categories Footer Part Start
+    ============================== -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer_text">
+                        <a href="#">
+                            <img src="./images/logo_f.png" alt="logo_f" />
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor.
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="footer_menu">
+                        <div class="list">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <h4>Information</h4>
+                            <ul>
+                                <li><a href="#">Help Center </a></li>
+                                <li><a href="#">Payment Methods</a></li>
+                                <li><a href="#">Return & Refund</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <h4>Contact</h4>
+                            <p class="contact">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="tel:+1234567890">+1234567890</a>
+                            </p>
+                            <p class="contact">
+                                <i class="fa-regular fa-envelope"></i>
+                                <a href="mailto:support@tronix.com">+support@tronix.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2021 <span>Tronix</span>. All Right Reseved</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./images/master card.png" alt="master card" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/Visa.png" alt="Visa" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/paypal.png" alt="paypal" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- ===========================
+        Categories Footer Part End
+    ============================== -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

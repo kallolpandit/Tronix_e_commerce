@@ -1,0 +1,27 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#categories_banner {
+  .menu_tag {
+    padding-bottom: 80px;
+  }
+  .empty {
+    text-align: center;
+    padding: 162px 0 690px;
+    .empty_img {
+      img {
+        width: 240px;
+        height: 240px;
+      }
+    }
+    h2 {
+      @include common_h2;
+      padding: 32px 0 24px;
+    }
+    p {
+      @include common_p;
+      width: 625px;
+      margin: 0 auto;
+    }
+  }
+}
