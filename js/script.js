@@ -20,3 +20,21 @@ $(".sale_slide").slick({
   nextArrow: '<i class="fa-solid fa-chevron-right next_arrow"></i>',
 });
 // ========================Sale Slide End===============================
+$(".product_slide").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: ".product_slide_sub",
+});
+$(".product_slide_sub").slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: ".product_slide",
+  focusOnSelect: true,
+  arrow: true,
+  prevArrow: '<i class="fa-solid fa-chevron-left pre_arrow"></i>',
+  nextArrow: '<i class="fa-solid fa-chevron-right next_arrow"></i>',
+});
+
+// ========================Product Slide End===============================
