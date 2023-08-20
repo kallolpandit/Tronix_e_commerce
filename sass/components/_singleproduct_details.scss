@@ -264,6 +264,8 @@
       padding-top: 64px;
       .review_items {
         padding-bottom: 32px;
+        border-right: 1px solid #a7a7a75a;
+        padding-right: 32px;
         .review_text {
           display: flex;
           gap: 16px;
@@ -307,6 +309,21 @@
           width: 100%;
           padding-top: 24px;
         }
+      }
+    }
+  }
+  .add_review_details {
+    padding-top: 166px;
+    padding-left: 32px;
+    .add {
+      h4 {
+        @include common_p;
+        font-weight: 800;
+      }
+      p {
+        @include common_p;
+        width: 480px;
+        padding: 16px 0 40px;
       }
     }
   }

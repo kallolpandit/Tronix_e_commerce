@@ -2115,6 +2115,8 @@ ol {
 }
 #singleproduct_details .review_description .review_details .review_items {
   padding-bottom: 32px;
+  border-right: 1px solid rgba(167, 167, 167, 0.3529411765);
+  padding-right: 32px;
 }
 #singleproduct_details .review_description .review_details .review_items .review_text {
   display: flex;
@@ -2168,4 +2170,23 @@ ol {
   color: #363636;
   width: 100%;
   padding-top: 24px;
+}
+#singleproduct_details .add_review_details {
+  padding-top: 166px;
+  padding-left: 32px;
+}
+#singleproduct_details .add_review_details .add h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-weight: 800;
+}
+#singleproduct_details .add_review_details .add p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  width: 480px;
+  padding: 16px 0 40px;
 }/*# sourceMappingURL=style.css.map */
