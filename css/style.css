@@ -2007,6 +2007,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   color: #363636;
+  font-size: 16px;
 }
 #singleproduct_details .description_text h4 {
   font-family: "Poppins", sans-serif;
@@ -2126,6 +2127,7 @@ ol {
 #singleproduct_details .review_description .review_details .review_items .review_text img {
   width: 56px;
   height: 56px;
+  border-radius: 8px;
 }
 #singleproduct_details .review_description .review_details .review_items .review_text .review_name h4 {
   font-family: "Poppins", sans-serif;
@@ -2168,6 +2170,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   color: #363636;
+  font-size: 16px;
   width: 100%;
   padding-top: 24px;
 }
@@ -2189,4 +2192,68 @@ ol {
   color: #363636;
   width: 480px;
   padding: 16px 0 40px;
+}
+#singleproduct_details .add_review_details .review_from form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#singleproduct_details .add_review_details .review_from form label {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+}
+#singleproduct_details .add_review_details .review_from form input {
+  border: 1px solid #a7a7a7;
+  border-radius: 8px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+#singleproduct_details .add_review_details .review_from form textarea {
+  border: 1px solid #a7a7a7;
+  border-radius: 8px;
+}
+#singleproduct_details .add_review_details .review_from form .submit {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px 50px;
+  background: #f46b5b;
+  border: 1px solid #f46b5b;
+  border-radius: 8px;
+  height: 100%;
+  transition: all linear 0.3s;
+}
+#singleproduct_details .add_review_details .review_from form .submit:hover {
+  color: #f46b5b;
+  background: transparent;
+}
+#singleproduct_details .add_review_details .review_from form .review_rating {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 26px 0 60px;
+}
+#singleproduct_details .add_review_details .review_from form .review_rating p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-weight: 500;
+}
+#singleproduct_details .add_review_details .review_from form .review_rating ul {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+#singleproduct_details .add_review_details .review_from form .review_rating ul li i {
+  color: #ffd687;
+}
+#singleproduct_details .add_review_details .review_from form .review_rating ul li .not_rating {
+  color: #a7a7a7;
 }/*# sourceMappingURL=style.css.map */
