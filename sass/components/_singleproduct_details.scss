@@ -241,12 +241,14 @@
     ul {
       display: flex;
       gap: 40px;
-      li {
-        .all_review {
+      .all_review {
+        a {
           padding-bottom: 10px;
           border-bottom: 1px solid $brand_color;
           color: $brand_color;
         }
+      }
+      li {
         a {
           @include common_p;
           padding-bottom: 10px;
@@ -255,6 +257,55 @@
             border-bottom: 1px solid $brand_color;
             color: $brand_color;
           }
+        }
+      }
+    }
+    .review_details {
+      padding-top: 64px;
+      .review_items {
+        padding-bottom: 32px;
+        .review_text {
+          display: flex;
+          gap: 16px;
+          align-items: center;
+          img {
+            width: 56px;
+            height: 56px;
+          }
+          .review_name {
+            h4 {
+              @include common_p;
+              font-weight: 500;
+            }
+            .rating_points {
+              display: flex;
+              gap: 16px;
+              align-items: center;
+              padding-top: 10px;
+              h6 {
+                @include common_p;
+                color: $brand_color;
+              }
+              ul {
+                display: flex;
+                gap: 5px;
+                li {
+                  color: #ffd687;
+                }
+              }
+              .month {
+                @include common_p;
+                color: $border_color;
+                font-weight: 16px;
+                padding-top: 0;
+              }
+            }
+          }
+        }
+        p {
+          @include common_p;
+          width: 100%;
+          padding-top: 24px;
         }
       }
     }
