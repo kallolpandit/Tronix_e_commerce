@@ -2085,4 +2085,28 @@ ol {
 #singleproduct_details .quantity .quantity_chart a:hover {
   background: transparent;
   color: #f46b5b;
+}
+#singleproduct_details .review_description {
+  padding-top: 64px;
+}
+#singleproduct_details .review_description ul {
+  display: flex;
+  gap: 40px;
+}
+#singleproduct_details .review_description ul li .all_review {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f46b5b;
+  color: #f46b5b;
+}
+#singleproduct_details .review_description ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  padding-bottom: 10px;
+  transition: all linear 0.3s;
+}
+#singleproduct_details .review_description ul li a:hover {
+  border-bottom: 1px solid #f46b5b;
+  color: #f46b5b;
 }/*# sourceMappingURL=style.css.map */

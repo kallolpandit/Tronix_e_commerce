@@ -236,4 +236,27 @@
       }
     }
   }
+  .review_description {
+    padding-top: 64px;
+    ul {
+      display: flex;
+      gap: 40px;
+      li {
+        .all_review {
+          padding-bottom: 10px;
+          border-bottom: 1px solid $brand_color;
+          color: $brand_color;
+        }
+        a {
+          @include common_p;
+          padding-bottom: 10px;
+          transition: all linear 0.3s;
+          &:hover {
+            border-bottom: 1px solid $brand_color;
+            color: $brand_color;
+          }
+        }
+      }
+    }
+  }
 }
