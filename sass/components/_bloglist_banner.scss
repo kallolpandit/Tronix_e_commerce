@@ -1,0 +1,150 @@
+@import "../variables/variables";
+@import "../mixins/mixins";
+
+#bloglist {
+  padding: 48px 0 120px;
+  .menu_tag {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: $border_color;
+    a {
+      display: block;
+      color: $border_color !important;
+      @include common_p;
+    }
+    .blog {
+      color: $brand_color !important;
+    }
+  }
+  .bloglist_heading {
+    text-align: center;
+    padding-top: 48px;
+    h2 {
+      @include common_h2;
+    }
+
+    p {
+      @include common_p;
+      width: 625px;
+      margin: 0 auto;
+      padding: 24px 0 80px;
+    }
+  }
+  .blog_menu {
+    .search {
+      display: flex;
+      align-items: center;
+      position: relative;
+      span {
+        @include common_p;
+        color: $border_color;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+      }
+      input {
+        border: 1px solid $border_color;
+        border-radius: 8px;
+        width: 100%;
+        height: 50px;
+        color: $border_color;
+        @include common_p;
+        padding-left: 40px;
+      }
+    }
+    .blog_categories {
+      margin: 32px 0;
+      padding: 32px 32px;
+      border: 1px solid $border_color;
+      border-radius: 8px;
+      h3 {
+        @include common_p;
+        font-weight: 800;
+      }
+      ul {
+        padding-top: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        li {
+          display: flex;
+          gap: 10px;
+          a {
+            @include common_p;
+            transition: all linear 0.3s;
+            &:hover {
+              color: $brand_color;
+            }
+          }
+        }
+      }
+    }
+    .blog_tags {
+      padding: 32px;
+      border: 1px solid $border_color;
+      border-radius: 8px;
+      h3 {
+        @include common_p;
+        font-weight: 800;
+        padding-bottom: 16px;
+      }
+      ul {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        li {
+          a {
+            display: inline-block;
+            padding: 16px;
+            border: 1px solid $border_color;
+            border-radius: 8px;
+            @include common_p;
+            font-size: 14px;
+            transition: all linear 0.3s;
+            &:hover {
+              color: $brand_color;
+            }
+          }
+        }
+      }
+    }
+    .recent_post {
+      padding-top: 64px;
+      h3 {
+        @include common_p;
+        font-weight: 800;
+        padding-bottom: 32px;
+      }
+      .recent_details {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        padding-bottom: 16px;
+        .recent_img {
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 8px;
+          }
+        }
+        .recent_text {
+          h6 {
+            @include common_p;
+            font-size: 14px;
+            font-weight: 700;
+          }
+          p {
+            @include common_p;
+            font-size: 14px;
+            padding-top: 10px;
+            span {
+              color: $brand_color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

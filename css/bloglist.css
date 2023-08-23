@@ -1,1 +1,178 @@
-/*# sourceMappingURL=bloglist.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+#bloglist {
+  padding: 48px 0 120px;
+}
+#bloglist .menu_tag {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  color: #a7a7a7;
+}
+#bloglist .menu_tag a {
+  display: block;
+  color: #a7a7a7 !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+}
+#bloglist .menu_tag .blog {
+  color: #f46b5b !important;
+}
+#bloglist .bloglist_heading {
+  text-align: center;
+  padding-top: 48px;
+}
+#bloglist .bloglist_heading h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+}
+#bloglist .bloglist_heading p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  width: 625px;
+  margin: 0 auto;
+  padding: 24px 0 80px;
+}
+#bloglist .blog_menu .search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#bloglist .blog_menu .search span {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #a7a7a7;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+#bloglist .blog_menu .search input {
+  border: 1px solid #a7a7a7;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+  color: #a7a7a7;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  padding-left: 40px;
+}
+#bloglist .blog_menu .blog_categories {
+  margin: 32px 0;
+  padding: 32px 32px;
+  border: 1px solid #a7a7a7;
+  border-radius: 8px;
+}
+#bloglist .blog_menu .blog_categories h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-weight: 800;
+}
+#bloglist .blog_menu .blog_categories ul {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#bloglist .blog_menu .blog_categories ul li {
+  display: flex;
+  gap: 10px;
+}
+#bloglist .blog_menu .blog_categories ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  transition: all linear 0.3s;
+}
+#bloglist .blog_menu .blog_categories ul li a:hover {
+  color: #f46b5b;
+}
+#bloglist .blog_menu .blog_tags {
+  padding: 32px;
+  border: 1px solid #a7a7a7;
+  border-radius: 8px;
+}
+#bloglist .blog_menu .blog_tags h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-weight: 800;
+  padding-bottom: 16px;
+}
+#bloglist .blog_menu .blog_tags ul {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+#bloglist .blog_menu .blog_tags ul li a {
+  display: inline-block;
+  padding: 16px;
+  border: 1px solid #a7a7a7;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 14px;
+  transition: all linear 0.3s;
+}
+#bloglist .blog_menu .blog_tags ul li a:hover {
+  color: #f46b5b;
+}
+#bloglist .blog_menu .recent_post {
+  padding-top: 64px;
+}
+#bloglist .blog_menu .recent_post h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-weight: 800;
+  padding-bottom: 32px;
+}
+#bloglist .blog_menu .recent_post .recent_details {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-bottom: 16px;
+}
+#bloglist .blog_menu .recent_post .recent_details .recent_img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+#bloglist .blog_menu .recent_post .recent_details .recent_text h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 14px;
+  font-weight: 700;
+}
+#bloglist .blog_menu .recent_post .recent_details .recent_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 14px;
+  padding-top: 10px;
+}
+#bloglist .blog_menu .recent_post .recent_details .recent_text p span {
+  color: #f46b5b;
+}/*# sourceMappingURL=bloglist.css.map */
