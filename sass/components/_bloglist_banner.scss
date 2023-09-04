@@ -182,7 +182,7 @@
   .blog_post_slide {
     padding-top: 32px;
     display: flex;
-    gap: 32px;
+    gap: 32px !important;
     .blog_items {
       img {
         border-top-right-radius: 16px;
