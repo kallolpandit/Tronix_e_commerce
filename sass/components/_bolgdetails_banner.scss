@@ -193,6 +193,10 @@
             @include common_p;
             font-size: 16px;
             padding-left: 10px;
+            transition: all linear 0.3s;
+            &:hover {
+              color: $brand_color;
+            }
           }
         }
       }
@@ -204,6 +208,10 @@
             @include common_p;
             font-size: 16px;
             padding-left: 10px;
+            transition: all linear 0.3s;
+            &:hover {
+              color: $brand_color;
+            }
           }
         }
       }
@@ -281,6 +289,55 @@
       p {
         padding-top: 20px;
         @include common_p;
+      }
+    }
+  }
+  .comment_from {
+    h3 {
+      @include common_h2;
+      font-size: 24px;
+    }
+    .form {
+      padding-top: 32px;
+      .cmnt {
+        @include common_p;
+        padding-bottom: 16px;
+      }
+      textarea {
+        width: 100%;
+      }
+      .info {
+        display: flex;
+        gap: 32px;
+        // justify-content: center;
+        align-items: center;
+        padding: 32px 0;
+        .info_items {
+          label {
+            @include common_p;
+            padding-bottom: 16px;
+          }
+          input {
+            width: 450px;
+            height: 40px;
+            margin-right: 15px;
+            display: block;
+          }
+        }
+      }
+      .submit {
+        text-align: right;
+        @include common_p;
+        color: #fff;
+        padding: 12px 50px;
+        background: $brand_color;
+        border: 1px solid $brand_color;
+        height: 100%;
+        transition: all linear 0.3s;
+        &:hover {
+          color: $brand_color;
+          background: transparent;
+        }
       }
     }
   }

@@ -2756,6 +2756,10 @@ ol {
   color: #363636;
   font-size: 16px;
   padding-left: 10px;
+  transition: all linear 0.3s;
+}
+#bolgdetails .bolg_details .social .tag h3 a:hover {
+  color: #f46b5b;
 }
 #bolgdetails .bolg_details .social .share h3 {
   font-family: "Montserrat", sans-serif;
@@ -2771,6 +2775,10 @@ ol {
   color: #363636;
   font-size: 16px;
   padding-left: 10px;
+  transition: all linear 0.3s;
+}
+#bolgdetails .bolg_details .social .share h3 a:hover {
+  color: #f46b5b;
 }
 #bolgdetails .blog_details_post h2 {
   font-family: "Poppins", sans-serif;
@@ -2865,4 +2873,60 @@ ol {
   font-size: 18px;
   font-weight: 400;
   color: #363636;
+}
+#bolgdetails .comment_from h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+  font-size: 24px;
+}
+#bolgdetails .comment_from .form {
+  padding-top: 32px;
+}
+#bolgdetails .comment_from .form .cmnt {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  padding-bottom: 16px;
+}
+#bolgdetails .comment_from .form textarea {
+  width: 100%;
+}
+#bolgdetails .comment_from .form .info {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  padding: 32px 0;
+}
+#bolgdetails .comment_from .form .info .info_items label {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  padding-bottom: 16px;
+}
+#bolgdetails .comment_from .form .info .info_items input {
+  width: 450px;
+  height: 40px;
+  margin-right: 15px;
+  display: block;
+}
+#bolgdetails .comment_from .form .submit {
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #fff;
+  padding: 12px 50px;
+  background: #f46b5b;
+  border: 1px solid #f46b5b;
+  height: 100%;
+  transition: all linear 0.3s;
+}
+#bolgdetails .comment_from .form .submit:hover {
+  color: #f46b5b;
+  background: transparent;
 }/*# sourceMappingURL=style.css.map */
