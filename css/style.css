@@ -90,6 +90,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -2929,4 +2933,70 @@ ol {
 #bolgdetails .comment_from .form .submit:hover {
   color: #f46b5b;
   background: transparent;
+}
+
+#cart_banner {
+  padding: 32px 0 160px;
+}
+#cart_banner .menu_tag {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  color: #a7a7a7;
+}
+#cart_banner .menu_tag a {
+  color: #a7a7a7;
+}
+#cart_banner .menu_tag .cart {
+  color: #f46b5b;
+}
+#cart_banner .cart_heading {
+  text-align: center;
+  padding-top: 26px;
+}
+#cart_banner .cart_heading h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #383838;
+}
+#cart_banner .cart_heading .my_cart_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 72px 0;
+}
+#cart_banner .cart_heading .my_cart_items .my_cart p {
+  color: #f46b5b;
+}
+#cart_banner .cart_heading .my_cart_items .my_cart p span {
+  padding: 10px 25px;
+  border: 1px solid #f46b5b;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+#cart_banner .cart_heading .my_cart_items .cart_line {
+  width: 300px;
+  height: 2px;
+  background: #a7a7a7;
+}
+#cart_banner .cart_heading .my_cart_items .cart_checkout p {
+  color: #a7a7a7;
+}
+#cart_banner .cart_heading .my_cart_items .cart_checkout p span {
+  padding: 12px 25px;
+  border: 1px solid #a7a7a7;
+  border-radius: 50%;
+  margin-right: 24px;
 }/*# sourceMappingURL=style.css.map */
