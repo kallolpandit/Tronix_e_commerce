@@ -2999,4 +2999,20 @@ ol {
   border: 1px solid #a7a7a7;
   border-radius: 50%;
   margin-right: 24px;
+}
+#cart_banner .select_part .select {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+}
+#cart_banner .select_part .select .checkbox input {
+  height: 16px;
+  width: 16px;
+}
+#cart_banner .select_part .select p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #363636;
+  color: #a7a7a7;
 }/*# sourceMappingURL=style.css.map */

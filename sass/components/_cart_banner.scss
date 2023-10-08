@@ -59,4 +59,21 @@
       }
     }
   }
+  .select_part {
+    .select {
+      display: flex;
+      gap: 46px;
+      align-items: center;
+      .checkbox {
+        input {
+          height: 16px;
+          width: 16px;
+        }
+      }
+      p {
+        @include common_p;
+        color: $border_color;
+      }
+    }
+  }
 }
